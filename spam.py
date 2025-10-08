@@ -14,7 +14,7 @@ from sklearn.ensemble import RandomForestClassifier, VotingClassifier
 from sklearn.metrics import (accuracy_score, precision_score, recall_score, f1_score,
                              confusion_matrix, classification_report, roc_curve, auc, RocCurveDisplay)
 
-# 1) Download dataset (UCI)
+# Download dataset (UCI)
 DATA_URL = "https://archive.ics.uci.edu/ml/machine-learning-databases/spambase/spambase.data"
 NAMES_URL = "https://archive.ics.uci.edu/ml/machine-learning-databases/spambase/spambase.names"
 
@@ -119,3 +119,4 @@ plt.gca().invert_yaxis()
 plt.tight_layout()
 plt.savefig("feature_importances.png")
 plt.show()
+
