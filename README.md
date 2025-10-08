@@ -19,7 +19,8 @@ Este projeto foi desenvolvido como atividade da disciplina **Segurança da Infor
 
 ## 🛠️ Tecnologias Utilizadas
 
-- Linguagem de programação: **Python**  
+- Linguagem de programação: **Python**
+- Carregar dados: **numpy**
 - Manipulação de dados: **pandas, numpy**
 - Separar treino/teste: **sklearn.model_selection**
 - Escalonar atributos: **sklearn.preprocessing**
